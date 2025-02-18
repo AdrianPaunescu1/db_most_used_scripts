@@ -49,7 +49,7 @@ try:
 
             cursor.execute("UPDATE sat_msgPos SET tmMsg = %s WHERE idMsg = %s", (tmMsg_next, idMsg))
             connection.commit()
-            print(f"Actualizare realizată pentru înregistrarea cu idMsg: {idMsg}")
+            print(f"Actualizare realizata pentru înregistrarea cu idMsg: {idMsg}")
 
 except mysql.connector.Error as error:
     print("Eroare la conectare la MySQL:", error)
