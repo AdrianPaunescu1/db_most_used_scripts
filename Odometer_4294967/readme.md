@@ -1,0 +1,1 @@
+This Python script connects to a MySQL database and corrects erroneous data in the sat_msgPos table based on certain conditions. It updates the amDistTot value for messages with specific conditions and uses the previous valid message's data to correct the error.
